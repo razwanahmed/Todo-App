@@ -1,0 +1,115 @@
+.container {
+    width: 960px;
+    margin: auto;
+    padding: 30px;
+    font-family: arial;
+}
+
+h1#titleBar {
+    color: #333;
+    font-family: arial-black;
+    font-size: 30px;
+}
+
+table thead tr th {
+    padding: 15px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table tbody tr td {
+    padding: 15px;
+}
+
+table tbody tr td button {
+    border: none;
+    cursor: pointer;
+    padding: 10px 30px;
+}
+
+table tbody tr td button.btn-edit {
+    margin-bottom: 10px;
+    color: white;
+    background: #1c1cdcad;
+    border-radius: 5px;
+}
+
+table tbody tr td button.btn-delete {
+    color: white;
+    background: #cc1414;
+    border-radius: 5px;
+}
+
+table td input {
+    padding: 15px;
+    border: none;
+    outline: none;
+
+}
+
+button#addbtn {
+    border-radius: 5px;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    background: green;
+    cursor: pointer;
+}
+
+tbody#tabledata {
+    color: white;
+    background: black;
+}
+
+
+span#emptyMsg {
+    color: red;
+    font-weight: 600;
+    display: block;
+    padding-bottom: 20px;
+}
+
+
+input#editTitle {
+    color: white;
+    padding: 12px 23px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: black;
+    border-radius: 7px;
+    width: 120px;
+    border: none;
+    outline: none;
+}
+
+button#cancelBtn {
+    border: none;
+    background: #d30707;
+    color: white;
+    width: 70px;
+    padding: 6px 11px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#updateBtn {
+    border: none;
+    background: #040fa5;
+    color: white;
+    width: 70px;
+    padding: 6px 11px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#editForm{
+    display: none;
+}
+
+
+
+
+

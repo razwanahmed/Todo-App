@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <title>TODO APP</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="titleBar">TODO APP</h1>
+        <span id="emptyMsg"></span>
+        <table id="todoTableWrapper" border="1px">
+            <thead>
+                <tr>
+                    <th>Serial</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td><input type="text" id="title"
+                            placeholder="Todo Title" /></td>
+                    <td><input type="text" id="desc"
+                            placeholder="Todo Descrition" /></td>
+                    <td>
+                        <center><button id="addbtn" class="btn btn-edit">Todo
+                                Add</button></center>
+                    </td>
+                </tr>
+            </tfoot>
+
+            <tbody id="tabledata">
+
+            </tbody>
+        </table>
+
+        <div id="editForm">
+               <div><input type="text" value="Title" id="editTitle">
+
+                <input type="hidden" value="" id="arrayIndex">
+                <button id="cancelBtn">Cancel</button>
+                <button id="updateBtn">Update</button>
+
+            </div>
+            <div><textarea cols="50" rows="5" id="editDesc"></textarea></div>
+        </div>
+    </div>
+
+
+    <script src="todo.js"></script>
+</body>
+
+</html>
